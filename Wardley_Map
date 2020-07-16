@@ -1,0 +1,46 @@
+title My One Page CV (matthewpigram.co.uk)
+
+anchor Employers [0.95, 0.60]
+anchor Development/Deployment [0.46, 0.53]
+
+component My One Page CV [0.84, 0.28] label [-120, 6]
+component Design [0.88, 0.76]
+component Content [0.76, 0.76]
+component SSL Certificates [0.83, 0.83]
+component Let's Encrypt [0.65, 0.88]
+component Cloud Hosting Platform [0.06, 0.91]
+component Domain [0.68, 0.76]
+component Ansible [0.41, 0.45]
+component Github Actions [0.39, 0.60] label [5, -10]
+component Docker [0.17, 0.65]
+component Docker hub [0.34, 0.72]
+component Flask [0.08, 0.55]
+component Gunicorn [0.17, 0.54]
+component HAProxy [0.05, 0.65]
+
+annotation 1 [[0.88,0.22] ] This would be my website, as it is currently
+annotation 2 [[0.28,0.62] ] This is what is used in the background and would be hidden from the end user
+annotations [0.29, 0.02]]
+
+
+
+Employers->My One Page CV
+My One Page CV->Design
+My One Page CV->Content
+My One Page CV->SSL Certificates
+My One Page CV->Domain
+My One Page CV->Deployment
+My One Page CV->Ansible
+Deployment->Ansible
+Ansible->Github Actions
+Ansible->Docker hub
+SSL Certificates->Let's Encrypt
+Docker->Docker hub
+Docker->Flask
+Docker->Gunicorn
+Cloud Hosting Platform->HAProxy
+HAProxy->Docker
+
+note This was solely to demonstrate how I would serve my website to end users and gives me room to add changes. [0.02, 0.01]
+
+style colour
