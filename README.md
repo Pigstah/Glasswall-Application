@@ -1,6 +1,6 @@
 # Glasswall-Application
 
-## Link to my presentation
+### Link to my presentation
 
 https://docs.google.com/presentation/d/1LrkEb0fK6mQfKSbUgzxV3Wsg_wfJKqNj4_kL3WOge3k/edit?usp=sharing
 
